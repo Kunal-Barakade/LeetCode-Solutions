@@ -8,6 +8,29 @@ class Solution {
         }));
     }
     public List<Integer> addToArrayForm(int[] num, int k) {
+        // List<Integer> list = new ArrayList<>() ;
+        // int number = 0 ;
+
+        // for(int i = 0 ; i<num.length ; i++)
+        // {
+        //     number *= 10 ;
+        //     number += num[i] ;
+        // }
+        
+        // number += k ;
+
+        // int divisor = (int) Math.pow(10, num.length-1) ;
+
+        // while(divisor != 0)
+        // {
+        //     int digit = number/divisor ;
+
+        //     list.add(digit) ;
+        //     number = number % divisor ;
+        //     divisor = divisor / 10 ;
+        // }
+        // return list ;
+
         List<Integer> list = new ArrayList<>() ;
 
         int p = num.length-1;
